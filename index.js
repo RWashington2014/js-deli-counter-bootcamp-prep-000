@@ -22,12 +22,12 @@ function nowServing(katzDeliLine){
     //  return "There is nobody waiting to be served!"
 
     //}
-     if(emptyArray.length > 1){
+     if(emptyArray.length > i){
 
       return `Currently serving ${emptyArray[0]}.`
       emptyArray.pop()
-    }  
-    
+    }
+
 //return emptyArray
 }
 

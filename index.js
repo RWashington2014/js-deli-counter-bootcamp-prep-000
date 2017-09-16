@@ -24,7 +24,7 @@ function nowServing(katzDeliLine){
       console.log(`Currently serving ${katzDeliLine[0]}.`)
       return newArray
     }
-    
+
 
 
 //return katzDeliLine

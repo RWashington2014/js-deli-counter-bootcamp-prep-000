@@ -25,7 +25,7 @@ function nowServing(katzDeliLine){
      if(emptyArray.length > i){
 
       return `Currently serving ${emptyArray[i]}.`
-      emptyArray.pop()
+      emptyArray.shift()
     }
 
 //return emptyArray

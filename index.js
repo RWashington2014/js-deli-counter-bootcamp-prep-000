@@ -19,15 +19,13 @@ function nowServing(katzDeliLine){
     } // end if
 
     do{
-        return `Currently serving ${katzDeliLine[i]}.`
+        console.log(`Currently serving ${katzDeliLine[i]}.`)
         i++
         katzDeliLine = katzDeliLine.slice(1)
       } while(katzDeliLine.length > i);
 
 
-console.log(katzDeliLine)
-
-//return emptyArray
+//return katzDeliLine
 } // end nowServing
 
 function currentLine(array){

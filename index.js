@@ -18,7 +18,7 @@ function nowServing(katzDeliLine){
   var katzDeliLine = katzDeliLine.push(katzDeliLine)
 
     return katzDeliLine.length
-    
+
 }
 
 function currentLine(katzDeliLine){

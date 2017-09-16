@@ -17,7 +17,7 @@ function nowServing(katzDeliLine){
   //  deliLine.push(katzDeliLine)
   var katzDeliLine = katzDeliLine.push(katzDeliLine)
 
-    return katzDeliLine
+    return katzDeliLine[]
 }
 
 function currentLine(katzDeliLine){

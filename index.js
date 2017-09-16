@@ -22,7 +22,6 @@ function nowServing(katzDeliLine){
       return `Currently serving ${katzDeliLine[i]}.`
       katzDeliLine = katzDeliLine.shift()
       i++
-      return katzDeliLine
 
 } // end while
 

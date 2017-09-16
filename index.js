@@ -22,10 +22,11 @@ function nowServing(katzDeliLine){
       return `Currently serving ${katzDeliLine[i]}.`
       katzDeliLine = katzDeliLine.slice(1)
       i++
+      return katzDeliLine
 
 } // end while
 
-    return katzDeliLine
+    
 
 //return emptyArray
 }

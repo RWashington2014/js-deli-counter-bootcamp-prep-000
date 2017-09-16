@@ -17,7 +17,11 @@ function nowServing(katzDeliLine){
   //  deliLine.push(katzDeliLine)
 emptyArray =  katzDeliLine.push(katzDeliLine)
 
+  while(i < emptyArray.length) {
+    
     return emptyArray
+    i++
+  } 
 
 }
 

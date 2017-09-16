@@ -12,10 +12,10 @@ function takeANumber(katzDeliLine, name){
 function nowServing(katzDeliLine){
 
     var emptyArray = []
-    var deliLine = []
+    var i = 0
 
   //  deliLine.push(katzDeliLine)
-  var katzDeliLine = katzDeliLine.push(katzDeliLine)
+  katzDeliLine.push(katzDeliLine)
 
     return katzDeliLine
 

@@ -24,7 +24,7 @@ function nowServing(katzDeliLine){
       i++
 
 } // end while
-    
+
     return katzDeliLine
 
 //return emptyArray

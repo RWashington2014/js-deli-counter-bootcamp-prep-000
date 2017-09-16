@@ -11,11 +11,7 @@ function takeANumber(katzDeliLine, name){
 
 function nowServing(katzDeliLine){
 
-    var emptyArray = []
     var i = 0
-
-
-    emptyArray = [...emptyArray, katzDeliLine]
 
 
     //if (emptyArray.length === 1) {
@@ -40,11 +36,11 @@ function currentLine(array){
   if (array < 1) {
     return "The line is currently empty."
   } //end if statement
-  
+
   while(array.length > i) {
     //emptyArray = emptyArray.push(array)
     return `The line is currently: 1. ${array[0]}, 2. ${array[1]}, 3. ${array[2]}`
     i++
-  } //end while loop 
-  
+  } //end while loop
+
 } // end function

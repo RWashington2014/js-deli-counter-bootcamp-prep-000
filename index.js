@@ -18,7 +18,7 @@ function nowServing(katzDeliLine){
     emptyArray = [...emptyArray, katzDeliLine]
 
 
-    if (emptyArray === []) {
+    if (emptyArray === 1) {
       return "There is nobody waiting to be served!"
 
     }

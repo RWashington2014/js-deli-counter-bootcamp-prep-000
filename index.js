@@ -21,10 +21,10 @@ function nowServing(katzDeliLine){
     else if (katzDeliLine.length > 1) {
 
     newArray = [...newArray, katzDeliLine.slice(1)]
-      return `Currently serving ${katzDeliLine[0]}.`
-    }
-    else
+      console.log(`Currently serving ${katzDeliLine[0]}.`)
       return newArray
+    }
+    
 
 
 //return katzDeliLine

@@ -15,7 +15,8 @@ function nowServing(katzDeliLine){
     var i = 0
 
   //  deliLine.push(katzDeliLine)
-emptyArray =  katzDeliLine.push(katzDeliLine)
+emptyArray = [...emptyArray, katzDeliLine]  
+//katzDeliLine.push(katzDeliLine)
 
   while(i < emptyArray.length) {
 

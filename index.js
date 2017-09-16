@@ -18,7 +18,7 @@ function nowServing(katzDeliLine){
       return "There is nobody waiting to be served!"
     } // end if
 
-    else if (katzDeliLine > 1) {
+    else if (katzDeliLine.length > 1) {
 
     newArray = [...newArray, katzDeliLine.slice(1)]
       console.log(`Currently serving ${katzDeliLine[i]}.`)

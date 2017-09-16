@@ -13,7 +13,7 @@ function takeANumber(katzDeliLine, name){
     i++
   }
 
-  
+
 
 }
 
@@ -38,5 +38,5 @@ function currentLine(katzDeliLine){
 
 
 
-  
+
 }

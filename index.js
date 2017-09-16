@@ -23,7 +23,7 @@ function nowServing(katzDeliLine){
 
     }
     else while(i < emptyArray.length){
-      
+
       return `Currently serving ${emptyArray[i]}.`
       emptyArray.pop()
       i++

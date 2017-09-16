@@ -14,16 +14,19 @@ function nowServing(katzDeliLine){
     var emptyArray = []
     var i = 0
 
-  //  deliLine.push(katzDeliLine)
-emptyArray = [...emptyArray, katzDeliLine]
-//katzDeliLine.push(katzDeliLine)
 
- while(i < emptyArray.length) {
+    emptyArray = [...emptyArray, katzDeliLine]
 
-    return `Currently serving ${emptyArray[i]}.`
-    emptyArray.pop()
-    i++
-  }
+
+    if (emptyArray === []) {
+      return "There is nobody waiting to be served!"
+      
+    } 
+    else {
+      return `Currently serving ${emptyArray[i]}.`
+      emptyArray.pop()
+      i++
+    }
 return emptyArray
 }
 

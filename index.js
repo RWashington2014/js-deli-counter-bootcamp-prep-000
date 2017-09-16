@@ -25,7 +25,7 @@ function nowServing(katzDeliLine){
         i++
         katzDeliLine = katzDeliLine.shift()
       } while(katzDeliLine.length > i);
-} // end do
+ 
 
 console.log(katzDeliLine)
 

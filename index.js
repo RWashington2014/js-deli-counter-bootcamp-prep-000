@@ -22,7 +22,7 @@ function nowServing(katzDeliLine){
 
     newArray = [...newArray, katzDeliLine.slice(1)]
       console.log(`Currently serving ${katzDeliLine[i]}.`)
-      return newArray
+      //return newArray
     }
 
 
@@ -41,6 +41,6 @@ function currentLine(array){
 
     return `The line is currently: 1. ${array[0]}, 2. ${array[1]}, 3. ${array[2]}`
     i++
-  } //end while loop
+  } //end 
 
 } // end currentLine

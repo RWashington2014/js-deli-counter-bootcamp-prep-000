@@ -5,8 +5,15 @@ var katzDeli = []
 function takeANumber(katzDeliLine, name){
 
   katzDeliLine.push(name)
+  var i = 0
 
-  return `Welcome, ${name}. You are number 1 in line.`
+  while (i < katzDeliLine.length) {
+
+    return `Welcome, ${name}. You are number ${katzDeliLine.indexOf[i] + 1} in line.`
+    i++
+  }
+
+  
 
 }
 
@@ -24,6 +31,12 @@ function nowServing(katzDeliLine){
         //deliLine.pop()
         return `Currently serving ${console.log(deliLine[0])}`
       }
+}
+
+function currentLine(katzDeliLine){
 
 
+
+
+  
 }

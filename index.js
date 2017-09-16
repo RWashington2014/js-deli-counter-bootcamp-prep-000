@@ -5,7 +5,7 @@ var katzDeli = []
 function takeANumber(katzDeliLine, name){
 
   katzDeliLine.push(name)
-  
+
     return `Welcome, ${name}. You are number ${katzDeliLine.length} in line.`
 }
 
@@ -16,13 +16,7 @@ function nowServing(katzDeliLine){
 
     deliLine.push(katzDeliLine)
 
-      if(deliLine === emptyArray){
-        return "There is nobody waiting to be served!"
-      }
-      else if(deliLine > 0){
-        //deliLine.pop()
-        return `Currently serving ${console.log(deliLine[0])}`
-      }
+      
 }
 
 function currentLine(katzDeliLine){

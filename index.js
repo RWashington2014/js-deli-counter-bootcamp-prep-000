@@ -20,7 +20,7 @@ emptyArray = [...emptyArray, katzDeliLine]
 
  while(i < emptyArray.length) {
 
-    return ` Currently serving ${emptyArray[i]}.`
+    return `Currently serving ${emptyArray[i]}.`
     emptyArray.pop()
     i++
   }

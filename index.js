@@ -25,7 +25,7 @@ function nowServing(katzDeliLine){
 
       return (`Currently serving ${string}.`)
     }// end else if
-    
+
 } // end nowServing
 
 function currentLine(array){

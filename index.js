@@ -27,7 +27,7 @@ function nowServing(katzDeliLine){
     //  emptyArray.pop()
       //i++
   //  }
-return emptyArray
+//return emptyArray
 }
 
 function currentLine(katzDeliLine){

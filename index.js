@@ -7,7 +7,7 @@ function takeANumber(katzDeliLine, name){
   katzDeliLine.push(name)
 
     return `Welcome, ${name}. You are number ${katzDeliLine.length} in line.`
-}
+} // end takeANumber
 
 function nowServing(katzDeliLine){
 
@@ -28,7 +28,7 @@ function nowServing(katzDeliLine){
 console.log(katzDeliLine)
 
 //return emptyArray
-}
+} // end nowServing
 
 function currentLine(array){
 
@@ -44,4 +44,4 @@ function currentLine(array){
     i++
   } //end while loop
 
-} // end function
+} // end currentLine

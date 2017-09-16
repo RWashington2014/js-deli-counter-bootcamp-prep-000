@@ -20,12 +20,12 @@ function nowServing(katzDeliLine){
 
     if (emptyArray === []) {
       return "There is nobody waiting to be served!"
-      
-    } 
+
+    }
     else {
       return `Currently serving ${emptyArray[i]}.`
       emptyArray.pop()
-      i++
+      //i++
     }
 return emptyArray
 }

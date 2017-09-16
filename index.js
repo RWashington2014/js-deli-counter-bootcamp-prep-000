@@ -33,8 +33,20 @@ function nowServing(katzDeliLine){
 //return emptyArray
 }
 
-function currentLine(katzDeliLine){
+function currentLine(array){
 
+  var emptyArray = []
+  var i = 0
+  
+  if (array < 1) {
+    
+    return "The line is currently empty"
+    
+  }
+  else if (array > 1) {
+
+    return `The line is currently: 1. ${array[0]}, 2. ${array[1]}, 3. ${array[2]}`
+  }
 
 
 

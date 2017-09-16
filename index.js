@@ -23,10 +23,10 @@ function nowServing(katzDeliLine){
 
     //}
     do{
-      return `Currently serving ${emptyArray[i]}.`
+      return `Currently serving ${emptyArray}.`
       emptyArray.shift()
       i++
-
+      
     } while(emptyArray.length > i);
 
 //return emptyArray

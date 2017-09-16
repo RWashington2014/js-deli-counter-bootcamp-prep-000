@@ -15,7 +15,7 @@ function nowServing(katzDeliLine){
     var i = 0
 
   //  deliLine.push(katzDeliLine)
-emptyArray = [...emptyArray, katzDeliLine]  
+emptyArray = [...emptyArray, katzDeliLine]
 //katzDeliLine.push(katzDeliLine)
 
   while(i < emptyArray.length) {
@@ -23,7 +23,7 @@ emptyArray = [...emptyArray, katzDeliLine]
     return "There is nobody waiting to be served!"
     i++
   }
-
+return emptyArray
 }
 
 function currentLine(katzDeliLine){

@@ -19,7 +19,7 @@ emptyArray =  katzDeliLine.push(katzDeliLine)
 
   while(i < emptyArray.length) {
 
-    return emptyArray
+    return "There is nobody waiting to be served!"
     i++
   }
 

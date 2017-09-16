@@ -12,7 +12,7 @@ function takeANumber(katzDeliLine, name){
 function nowServing(katzDeliLine){
     var newArray = []
     var i = 0
-
+    var string 
 
     if (katzDeliLine.length < 1) {
       return "There is nobody waiting to be served!"
@@ -20,8 +20,10 @@ function nowServing(katzDeliLine){
 
     else if (katzDeliLine.length > 1) {
 
+    string = katzDeliLine.shift()
     newArray = [...newArray, katzDeliLine.slice(1)]
-      console.log(`Currently serving ${katzDeliLine[0]}.`)
+    
+      console.log(`Currently serving ${string}.`)
       return newArray
     }
 

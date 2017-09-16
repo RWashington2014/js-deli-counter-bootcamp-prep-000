@@ -38,7 +38,7 @@ function currentLine(array){
   } //end if statement
 
   while(array.length > i) {
-    
+
     return `The line is currently: 1. ${array[0]}, 2. ${array[1]}, 3. ${array[2]}`
     i++
   } //end while loop

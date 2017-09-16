@@ -16,7 +16,7 @@ function nowServing(katzDeliLine){
 
     deliLine.push(katzDeliLine)
 
-      
+      return deliLine
 }
 
 function currentLine(katzDeliLine){

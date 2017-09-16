@@ -18,10 +18,12 @@ function nowServing(katzDeliLine){
 emptyArray = [...emptyArray, katzDeliLine]
 //katzDeliLine.push(katzDeliLine)
 
-//  while(i < emptyArray.length) {
+ while(i < emptyArray.length) {
 
-    //return "There is nobody waiting to be served!"
-  //  i++
+    return ` Currently serving ${emptyArray[i]}.`
+    emptyArray.pop()
+    i++
+  }
 return emptyArray
 }
 

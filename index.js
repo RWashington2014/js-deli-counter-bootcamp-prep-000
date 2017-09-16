@@ -23,7 +23,7 @@ function nowServing(katzDeliLine){
     newArray = [...newArray, katzDeliLine.slice(1)]
       return `Currently serving ${katzDeliLine[0]}.`
     }
-    else 
+    else
       return newArray
 
 

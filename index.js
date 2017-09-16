@@ -7,11 +7,11 @@ function takeANumber(katzDeliLine, name){
   katzDeliLine.push(name)
   var i = 0
 
-  while (i < katzDeliLine.length) {
+//  while (i < katzDeliLine.length) {
 
     return `Welcome, ${name}. You are number ${katzDeliLine.length} in line.`
-    i++
-  }
+  //  i++
+//  }
 
 
 

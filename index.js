@@ -15,6 +15,7 @@ function nowServing(katzDeliLine){
     var deliLine = []
 
   //  deliLine.push(katzDeliLine)
+  var katzDeliLine = katzDeliLine.push(katzDeliLine)
 
     if (katzDeliLine === []) {
        return "There is nobody waiting to be served!"

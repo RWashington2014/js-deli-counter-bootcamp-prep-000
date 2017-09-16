@@ -18,10 +18,10 @@ function nowServing(katzDeliLine){
 emptyArray =  katzDeliLine.push(katzDeliLine)
 
   while(i < emptyArray.length) {
-    
+
     return emptyArray
     i++
-  } 
+  }
 
 }
 

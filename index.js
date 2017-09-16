@@ -40,7 +40,7 @@ function currentLine(array){
 
   if (array < 1) {
 
-    return "The line is currently empty"
+    return "The line is currently empty."
 
   }
   while(array.length > i) {

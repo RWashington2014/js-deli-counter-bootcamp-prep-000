@@ -18,14 +18,15 @@ function nowServing(katzDeliLine){
     emptyArray = [...emptyArray, katzDeliLine]
 
 
-    if (emptyArray.length === 1) {
-      return "There is nobody waiting to be served!"
+    //if (emptyArray.length === 1) {
+    //  return "There is nobody waiting to be served!"
 
-    }
+    //}
     else do{
       return `Currently serving ${emptyArray}.`
       emptyArray.shift()
       i++
+      return emptyArray
 
     } while(emptyArray.length > i);
 

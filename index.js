@@ -23,7 +23,7 @@ function nowServing(katzDeliLine){
       i++
 
 } // end while
-    katzDeliLine.shift()
+    katzDeliLine.slice(1)
     return katzDeliLine
 
 //return emptyArray

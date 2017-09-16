@@ -26,7 +26,7 @@ function nowServing(katzDeliLine){
 
 } // end while
 
-    
+
 
 //return emptyArray
 }

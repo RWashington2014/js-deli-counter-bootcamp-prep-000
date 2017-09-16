@@ -19,7 +19,7 @@ function nowServing(katzDeliLine){
     } // end if
 
      while(katzDeliLine.length > i){
-      katzDeliLine = katzDeliLine.shift()
+      //katzDeliLine = katzDeliLine.shift()
       return `Currently serving ${katzDeliLine[i]}.`
 
       i++

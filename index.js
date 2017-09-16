@@ -37,11 +37,11 @@ function currentLine(array){
 
   var emptyArray = []
   var i = 0
-  
+
   if (array < 1) {
-    
+
     return "The line is currently empty"
-    
+
   }
   else if (array > 1) {
 

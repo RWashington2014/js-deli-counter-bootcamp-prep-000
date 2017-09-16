@@ -20,7 +20,7 @@ function nowServing(katzDeliLine){
 
      while(katzDeliLine.length > i){
       return `Currently serving ${katzDeliLine[i]}.`
-      katzDeliLine.shift()
+      katzDeliLine.slice(1)
       i++
       return katzDeliLine
 } // end while

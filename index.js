@@ -17,7 +17,7 @@ function nowServing(katzDeliLine){
     if (katzDeliLine.length > 1) {
       return "There is nobody waiting to be served!"
     } // end if
-    
+
      do{
       return `Currently serving ${katzDeliLine[i]}.`
       katzDeliLine.shift()
@@ -38,7 +38,7 @@ function currentLine(array){
   } //end if statement
 
   while(array.length > i) {
-    //emptyArray = emptyArray.push(array)
+    
     return `The line is currently: 1. ${array[0]}, 2. ${array[1]}, 3. ${array[2]}`
     i++
   } //end while loop

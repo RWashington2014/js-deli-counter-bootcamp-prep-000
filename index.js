@@ -22,7 +22,7 @@ function nowServing(katzDeliLine){
       return "There is nobody waiting to be served!"
 
     }
-    do{
+    else do{
       return `Currently serving ${emptyArray}.`
       emptyArray.shift()
       i++

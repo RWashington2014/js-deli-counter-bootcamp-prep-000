@@ -15,9 +15,9 @@ function nowServing(katzDeliLine){
     var i = 0
 
   //  deliLine.push(katzDeliLine)
-  katzDeliLine.push(katzDeliLine)
+emptyArray =  katzDeliLine.push(katzDeliLine)
 
-    return katzDeliLine
+    return emptyArray
 
 }
 

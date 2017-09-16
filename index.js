@@ -44,7 +44,7 @@ function currentLine(array){
 
   }
   while(array.length > i) {
-    emptyArray = [...emptyArray, array]
+    emptyArray = emptyArray.push(array)
     return `The line is currently: 1. ${emptyArray[0]}, 2. ${emptyArray[1]}, 3. ${emptyArray[2]}`
     i++
   }

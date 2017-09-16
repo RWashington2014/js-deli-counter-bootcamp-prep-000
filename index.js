@@ -30,8 +30,6 @@ function nowServing(katzDeliLine){
 
 function currentLine(array){
 
-  var i = 0
-
   if (array.length < 1) {
     return "The line is currently empty."
   } //end if statement

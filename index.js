@@ -19,11 +19,11 @@ function nowServing(katzDeliLine){
     } // end if
 
     else if (katzDeliLine > 1) {
-      
+
     newArray = [...newArray, katzDeliLine.slice(1)]
       console.log(`Currently serving ${katzDeliLine[i]}.`)
       return newArray
-    } 
+    }
 
 
 //return katzDeliLine
@@ -37,7 +37,7 @@ function currentLine(array){
     return "The line is currently empty."
   } //end if statement
 
-  while(array.length > i) {
+  else if(array.length > 1) {
 
     return `The line is currently: 1. ${array[0]}, 2. ${array[1]}, 3. ${array[2]}`
     i++

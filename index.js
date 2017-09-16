@@ -9,7 +9,7 @@ function takeANumber(katzDeliLine, name){
 
   while (i < katzDeliLine.length) {
 
-    return `Welcome, ${name}. You are number ${katzDeliLine.indexOf[i] + 1} in line.`
+    return `Welcome, ${name}. You are number ${katzDeliLine.length + 1} in line.`
     i++
   }
 

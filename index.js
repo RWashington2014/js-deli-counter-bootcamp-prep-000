@@ -24,11 +24,8 @@ function nowServing(katzDeliLine){
     newArray = [...newArray, katzDeliLine.slice(1)]
 
       return (`Currently serving ${string}.`)
-    }
-
-
-
-//return katzDeliLine
+    }// end else if
+    
 } // end nowServing
 
 function currentLine(array){
@@ -42,7 +39,6 @@ function currentLine(array){
   else if(array.length > 1) {
 
     return `The line is currently: 1. ${array[0]}, 2. ${array[1]}, 3. ${array[2]}`
-    i++
   } //end
 
 } // end currentLine
